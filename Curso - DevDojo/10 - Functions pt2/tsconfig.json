@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "amd",
+    "sourceMap": true,
+    "strictNullChecks": true
+    //"noImplicitThis": true //isso serve para que não retorno um "this" implicito, ou seja um this que referencia a window ou {}...
+  }
+}
