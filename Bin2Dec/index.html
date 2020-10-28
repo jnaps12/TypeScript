@@ -14,9 +14,11 @@
   </h1>
 
   <form id="form">
-    <input type="text" id="binarios" name="binarios" /><br/><br />
-    <button onclick="binToDec()" type="button">Converter</button>
+    <input type="text" id="binarios" name="binarios" onblur="validaNum()" maxlength="8" /><br /><br />
+    <div class="msg"></div>
+    <button id="button" onclick="binToDec()" type="button">Converter</button>
   </form>
+  
   
   <h1 id="result"></h1>
   <script src="scripts/main.js"></script>
