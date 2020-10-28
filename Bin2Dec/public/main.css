@@ -1,0 +1,44 @@
+body{
+  font-family: 'Trispace',
+  sans-serif;
+}
+/* tittle */
+.title{
+  font-size: 80px;
+  position: relative;
+  text-align: center;
+}
+#bin {
+  color: #18A17A;
+}
+
+#two {
+  color: #D324ED;
+}
+
+#dec {
+  color: #EDB824
+}
+/* title */
+#form{
+  position: relative;
+  text-align: center;
+}
+#binarios{
+  width: 200px;
+  height: px;
+}
+/* result */
+#result{
+  color: #A17700;
+  font-size: 140px;
+  position: relative;
+  text-align: center;
+  margin-top: 5%;
+}
+
+
+
+
+
+
