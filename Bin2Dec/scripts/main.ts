@@ -11,7 +11,14 @@ function binToDec(): void {
   }
 
   showResult(resultDec);
+  setTimeout(function () {
+    let entrada = document.getElementById("binarios");
+    entrada.value = "";
+    document.getElementById("result").innerHTML = "";
+  }, 5000);
+  
 }
+
 
 let showResult = (result: number): void => {
   document.getElementById('result').innerHTML = String(result);
@@ -35,6 +42,8 @@ function validaNum(): void {
     document.getElementById("button").style.display = "inline";
     msg.textContent = ''
   }
-  
+}
+
+function cleanAll(){
 
 }

@@ -9,6 +9,11 @@ function binToDec() {
         cont++;
     }
     showResult(resultDec);
+    setTimeout(function () {
+        let entrada = document.getElementById("binarios");
+        entrada.value = "";
+        document.getElementById("result").innerHTML = "";
+    }, 5000);
 }
 let showResult = (result) => {
     document.getElementById('result').innerHTML = String(result);
@@ -30,5 +35,7 @@ function validaNum() {
         document.getElementById("button").style.display = "inline";
         msg.textContent = '';
     }
+}
+function cleanAll() {
 }
 //# sourceMappingURL=main.js.map

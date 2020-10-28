@@ -30,7 +30,10 @@ body{
 }
 .msg{
   color: red;
-  font-size: larger;
+}
+.msg1{
+  margin-top: -2%;
+  margin-bottom: 1%;
 }
 /* result */
 #result{
